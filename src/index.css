@@ -1,0 +1,85 @@
+body{
+  background: #f28ab2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+  box-sizing: border-box;
+  display: block;
+  background-color: white;
+  display: list-item;
+  width: 90vw;
+  max-width: 450px;
+  border-radius: 0.25rem;
+  padding: .75rem  ;
+  margin-top: 70px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+}
+
+section > div {
+  width: 90vw;
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: auto 4fr 1fr;
+  grid-column-gap: 0.75rem;
+  margin-top: .75rem;
+}
+
+section > div > img {
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin: .5rem auto;
+}
+
+
+section > div > div > h2{
+  margin: 0;
+}
+
+section > div > div > h4{
+  margin: .5rem auto;
+  color: #617d98;
+}
+
+section > h1{
+  margin: 0px;
+  margin-bottom: 2rem;
+}
+
+section > button{
+  margin-top: 40px;
+  width: 100%;
+
+  height: 50px;
+  border-width: 0px;
+  background-color: palevioletred;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.25rem;
+}
+
+section > button:hover{
+  transform: scale(1.1);
+}
+
+.cestino{
+  border: 0px;
+  background-color: transparent;
+  min-height: 20px;
+  min-width: 15px;
+  height: 60%;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.cestino:hover{
+  background-color: palevioletred;
+  color: white;
+  transform: scale(1.3);
+}
